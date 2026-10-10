@@ -73,6 +73,8 @@ brief_end_hold:                 ; A16, runs inside the briefing task; $1A (per-c
     jsl $8387C6                 ; task wait 1 frame
     dec $1A
     bne .wait
-    sep #$20
+    lda.w #$0002
+    sta $2124                   ; keep BG3 masked for the fade: the original's $2112=$100 scroll was blank space with
+    sep #$20                    ; 16x16 tiles but wraps onto the text with 8x8 (the IRQ is off after this)
     stz $2112
     rtl
