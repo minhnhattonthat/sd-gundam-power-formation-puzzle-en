@@ -36,6 +36,22 @@ Most UI (title menu, unit select, stage select, battle) is already English graph
 - Y = VRAM tilemap address, X = string (DB = bank). 8x8 BG tiles: each char writes B,B+1 then B+16,B+17 on the
   next row; `$49` char index (col = $49*2). FE: `$47 += $60` (24 px line).
 
+## Options menu ($83:EF9B scene)
+- Writer $83:D94D packs each FE-separated item into a RAM buffer at $7F:1000 (2 tilemap words per glyph, top row then
+  bottom row). The menu then DMAs fixed slices (table at $83:FACC: w, h, src, vram; more hardcoded srcs at $83:FA9A
+  and palette copies at $7F:2000/$7F:3000), so every item must keep its JP glyph count. English words are therefore
+  pre-rendered across that many 16x16 cells (tools/font.py render_cells, codes from $60).
+
+## Endings and story flow
+- Story state: $7FFF00 team (0 Gundam, 1 G, 2 W), $7FFF02 branch, $7FFF06 lost flag, $7FFF0E stage count.
+  $83:9DBF: when the count hits 8 -> $83:B5A6 ending dispatch: branch 0 -> $83:A810 final ending ($0138 = won ->
+  table $83:A90B by team, else bad end $8B0B); branch 1 -> $83:CD44 -> $83:D090 (2x2 table $83:D0CA); branch 2 -> $83:B75A.
+- QA: `tools/lua/force_ending.lua` (prepend END_TEAM/END_BRANCH/END_LOST) redirects the first mission scene there.
+
+## Copyright screen ($8C:D171)
+- BG1 4bpp; chr LZ $82:96BB, tilemap LZ $82:9C3A (both via the bank-$80 copy of the LZ decompressor, $80:9240,
+  args at $1F04). Rebuilt by tools/copyright.py.
+
 ## Tools
 - `tools/dis65816.py ROM ADDR [N] --m16 --x16`: quick disassembler. `tools/font_sheet.py vram.bin out.png`.
 - Lua: `tools/lua/romreads.lua` (ROM data reads per PC), `dma_log.lua`, `watch_write.lua`, `dump_ppu.lua`.

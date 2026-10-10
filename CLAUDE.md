@@ -27,5 +27,7 @@ Independent of the sibling repo ../sd-gundam-power-formation-puzzle: never read 
 - Savestates past the briefing font load keep the old font: regenerate from cold boot after font/asm changes.
 
 ## Status
-- Done: RE, identity build, extraction, engine (briefing/ending/prologue/options/copyright), batch01 translation, briefing QA.
-- Next: endings in-emulator check, review pass (gpt-6-astra), romdiff/jp_left, release tooling.
+- Done: RE, identity build, extraction, engine (briefing/ending/prologue/options/copyright), translation + gpt-6-astra
+  review (fixes applied), in-emulator QA of briefing, prologue, options, copyright, 4 ending variants
+  (tools/lua/force_ending.lua), romdiff + JP scan in check, local v0.1 release in release/ (not published).
+- Open: "CV Zanscare" faction reading unverified in-game (B33-35). User playtest pending.
