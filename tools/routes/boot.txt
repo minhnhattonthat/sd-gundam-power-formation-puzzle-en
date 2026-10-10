@@ -1,0 +1,4 @@
+# cold boot to title, then idle
+600 -
+6 start
+300 -
