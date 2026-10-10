@@ -1,0 +1,122 @@
+[
+ {
+  "id": "O00",
+  "kind": "option",
+  "jp": "おこさまモード",
+  "en": "Kids Mode"
+ },
+ {
+  "id": "O01",
+  "kind": "option",
+  "jp": "むずかしさ",
+  "en": "Difficulty"
+ },
+ {
+  "id": "O02",
+  "kind": "option",
+  "jp": "そうさ",
+  "en": "Controls"
+ },
+ {
+  "id": "O03",
+  "kind": "option",
+  "jp": "せいさん",
+  "en": "Produce"
+ },
+ {
+  "id": "O04",
+  "kind": "option",
+  "jp": "ストック",
+  "en": "Stock"
+ },
+ {
+  "id": "O05",
+  "kind": "option",
+  "jp": "しゅつげき",
+  "en": "Sortie"
+ },
+ {
+  "id": "O06",
+  "kind": "option",
+  "jp": "おと",
+  "en": "Sound"
+ },
+ {
+  "id": "O07",
+  "kind": "option",
+  "jp": "なし",
+  "en": "Off"
+ },
+ {
+  "id": "O08",
+  "kind": "option",
+  "jp": "ふつう",
+  "en": "Normal"
+ },
+ {
+  "id": "O09",
+  "kind": "option",
+  "jp": "つよい",
+  "en": "Strong"
+ },
+ {
+  "id": "O10",
+  "kind": "option",
+  "jp": "よわい",
+  "en": "Weak"
+ },
+ {
+  "id": "O11",
+  "kind": "option",
+  "jp": "Ａ",
+  "en": "A"
+ },
+ {
+  "id": "O12",
+  "kind": "option",
+  "jp": "Ｂ",
+  "en": "B"
+ },
+ {
+  "id": "O13",
+  "kind": "option",
+  "jp": "Ｘ",
+  "en": "X"
+ },
+ {
+  "id": "O14",
+  "kind": "option",
+  "jp": "Ｙ",
+  "en": "Y"
+ },
+ {
+  "id": "O15",
+  "kind": "option",
+  "jp": "Ｌ",
+  "en": "L"
+ },
+ {
+  "id": "O16",
+  "kind": "option",
+  "jp": "Ｒ",
+  "en": "R"
+ },
+ {
+  "id": "O17",
+  "kind": "option",
+  "jp": "ステレオ",
+  "en": "Stereo"
+ },
+ {
+  "id": "O18",
+  "kind": "option",
+  "jp": "モノラル",
+  "en": "Mono"
+ },
+ {
+  "id": "O19",
+  "kind": "option",
+  "jp": "{sp}{sp}{sp}{sp}{sp}",
+  "en": " "
+ }
+]

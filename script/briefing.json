@@ -1,0 +1,684 @@
+[
+ {
+  "id": "B00",
+  "kind": "mission",
+  "addr": "0E8000",
+  "len": 61,
+  "slots": [
+   [
+    "p24",
+    "019B1C"
+   ]
+  ],
+  "jp": "ジオン軍のふっかつを{br}ふせぐ指令をうけた{br}ガンダムチームに{br}{br}月からティターンズの{br}モビルスーツが{br}攻撃をしかけてきた。{end}",
+  "en": "The Gundam Team has been\nordered to prevent the\nrevival of Zeon.\n\nNow Titans mobile suits\nfrom the Moon have\nlaunched an attack."
+ },
+ {
+  "id": "B01",
+  "kind": "mission",
+  "addr": "0E803D",
+  "len": 59,
+  "slots": [
+   [
+    "p24",
+    "019B49"
+   ]
+  ],
+  "jp": "強い敵をもとめて{br}宇宙にとび立った{br}Ｇガンダムチームに{br}{br}月からティターンズの{br}モビルスーツが{br}攻撃をしかけてきた。{end}",
+  "en": "The G Gundam Team has\ntaken off into space in\nsearch of strong foes.\n\nNow Titans mobile suits\nfrom the Moon have\nlaunched an attack."
+ },
+ {
+  "id": "B02",
+  "kind": "mission",
+  "addr": "0E8078",
+  "len": 60,
+  "slots": [
+   [
+    "p24",
+    "019B76"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器の{br}はかい指令をうけた{br}ガンダムＷチームに{br}{br}月からティターンズの{br}モビルスーツが{br}攻撃をしかけてきた。{end}",
+  "en": "The Gundam W Team has\nbeen ordered to destroy\nOZ's secret weapon.\n\nNow Titans mobile suits\nfrom the Moon have\nlaunched an attack."
+ },
+ {
+  "id": "B03",
+  "kind": "mission",
+  "addr": "0E80B4",
+  "len": 64,
+  "slots": [
+   [
+    "p24",
+    "019B1F"
+   ]
+  ],
+  "jp": "はげしく、そして{br}きびしい戦いを終えた{br}ガンダムチームの前に、{br}{br}ジオン軍のほこる{br}モビルスーツがつぎの{br}戦いにそなえていた。{end}",
+  "en": "The Gundam Team has just\ncome through a fierce,\ngrueling battle.\n\nBut ahead, Zeon's finest\nmobile suits stand ready\nfor the next fight."
+ },
+ {
+  "id": "B04",
+  "kind": "mission",
+  "addr": "0E80F4",
+  "len": 65,
+  "slots": [
+   [
+    "p24",
+    "019B4C"
+   ]
+  ],
+  "jp": "はげしく、そして{br}きびしい戦いを終えた{br}Ｇガンダムチームの前に、{br}{br}ジオン軍のほこる{br}モビルスーツがつぎの{br}戦いにそなえていた。{end}",
+  "en": "The G Gundam Team has\njust come through a\nfierce, grueling battle.\n\nBut ahead, Zeon's finest\nmobile suits stand ready\nfor the next fight."
+ },
+ {
+  "id": "B05",
+  "kind": "mission",
+  "addr": "0E8135",
+  "len": 65,
+  "slots": [
+   [
+    "p24",
+    "019B79"
+   ]
+  ],
+  "jp": "はげしく、そして{br}きびしい戦いを終えた{br}ガンダムＷチームの前に、{br}{br}ジオン軍のほこる{br}モビルスーツがつぎの{br}戦いにそなえていた。{end}",
+  "en": "The Gundam W Team has\njust come through a\nfierce, grueling battle.\n\nBut ahead, Zeon's finest\nmobile suits stand ready\nfor the next fight."
+ },
+ {
+  "id": "B06",
+  "kind": "mission",
+  "addr": "0E8176",
+  "len": 56,
+  "slots": [
+   [
+    "p24",
+    "019B22"
+   ]
+  ],
+  "jp": "休む間もないまま{br}戦いをつづける{br}ガンダムチーム{br}{br}ＯＺの指令をうけた{br}ジオン軍がつぎの{br}戦いをしかけてきた。{end}",
+  "en": "Without a moment's rest,\nthe Gundam Team\nfights on.\n\nActing on orders from OZ,\nthe Zeon forces launch\ntheir next attack."
+ },
+ {
+  "id": "B07",
+  "kind": "mission",
+  "addr": "0E81AE",
+  "len": 57,
+  "slots": [
+   [
+    "p24",
+    "019B4F"
+   ]
+  ],
+  "jp": "休む間もないまま{br}戦いをつづける{br}Ｇガンダムチーム{br}{br}ＯＺの指令をうけた{br}ジオン軍がつぎの{br}戦いをしかけてきた。{end}",
+  "en": "Without a moment's rest,\nthe G Gundam Team\nfights on.\n\nActing on orders from OZ,\nthe Zeon forces launch\ntheir next attack."
+ },
+ {
+  "id": "B08",
+  "kind": "mission",
+  "addr": "0E81E7",
+  "len": 57,
+  "slots": [
+   [
+    "p24",
+    "019B7C"
+   ]
+  ],
+  "jp": "休む間もないまま{br}戦いをつづける{br}ガンダムＷチーム{br}{br}ＯＺの指令をうけた{br}ジオン軍がつぎの{br}戦いをしかけてきた。{end}",
+  "en": "Without a moment's rest,\nthe Gundam W Team\nfights on.\n\nActing on orders from OZ,\nthe Zeon forces launch\ntheir next attack."
+ },
+ {
+  "id": "B09",
+  "kind": "mission",
+  "addr": "0E8220",
+  "len": 50,
+  "slots": [
+   [
+    "p24",
+    "019B25"
+   ]
+  ],
+  "jp": "きびしい戦いを終えた{br}ガンダムチームに{br}せまるアクシズ軍{br}{br}今、戦いのひぶたが{br}きっておとされる。{end}",
+  "en": "The Gundam Team has come\nthrough a grueling fight,\nbut Axis forces close in.\n\nNow the opening shots of\nthe battle are fired."
+ },
+ {
+  "id": "B10",
+  "kind": "mission",
+  "addr": "0E8252",
+  "len": 51,
+  "slots": [
+   [
+    "p24",
+    "019B52"
+   ]
+  ],
+  "jp": "きびしい戦いを終えた{br}Ｇガンダムチームに{br}せまるアクシズ軍{br}{br}いま戦いのひぶたが{br}きっておとされる。{end}",
+  "en": "The G Gundam Team has come\nthrough a grueling fight,\nbut Axis forces close in.\n\nNow the opening shots of\nthe battle are fired."
+ },
+ {
+  "id": "B11",
+  "kind": "mission",
+  "addr": "0E8285",
+  "len": 51,
+  "slots": [
+   [
+    "p24",
+    "019B7F"
+   ]
+  ],
+  "jp": "きびしい戦いを終えた{br}ガンダムＷチームに{br}せまるアクシズ軍{br}{br}今、戦いのひぶたが{br}きっておとされる。{end}",
+  "en": "The Gundam W Team has come\nthrough a grueling fight,\nbut Axis forces close in.\n\nNow the opening shots of\nthe battle are fired."
+ },
+ {
+  "id": "B12",
+  "kind": "mission",
+  "addr": "0E82B8",
+  "len": 59,
+  "slots": [
+   [
+    "p24",
+    "019B28"
+   ]
+  ],
+  "jp": "コロニーへむかう{br}ガンダムチームを{br}つぎの敵がおそう{br}{br}きょだいなコロニーの{br}そとではげしい戦いの{br}まくがあがった。{end}",
+  "en": "As the Gundam Team heads\nfor the colony, the next\nenemy strikes.\n\nOutside the giant colony,\nthe curtain rises on a\nfierce battle."
+ },
+ {
+  "id": "B13",
+  "kind": "mission",
+  "addr": "0E82F3",
+  "len": 60,
+  "slots": [
+   [
+    "p24",
+    "019B55"
+   ]
+  ],
+  "jp": "コロニーにむかう{br}Ｇガンダムチームを{br}つぎの敵がおそう{br}{br}きょだいなコロニーの{br}そとではげしい戦いの{br}まくがあがった。{end}",
+  "en": "As the G Gundam Team heads\nfor the colony, the next\nenemy strikes.\n\nOutside the giant colony,\nthe curtain rises on a\nfierce battle."
+ },
+ {
+  "id": "B14",
+  "kind": "mission",
+  "addr": "0E832F",
+  "len": 60,
+  "slots": [
+   [
+    "p24",
+    "019B82"
+   ]
+  ],
+  "jp": "コロニーにむかう{br}ガンダムＷチームを{br}つぎの敵がおそう{br}{br}きょだいなコロニーの{br}そとではげしい戦いの{br}まくがあがった。{end}",
+  "en": "As the Gundam W Team heads\nfor the colony, the next\nenemy strikes.\n\nOutside the giant colony,\nthe curtain rises on a\nfierce battle."
+ },
+ {
+  "id": "B15",
+  "kind": "mission",
+  "addr": "0E836B",
+  "len": 56,
+  "slots": [
+   [
+    "p24",
+    "019B2B"
+   ]
+  ],
+  "jp": "ガンダムチームに{br}ネオジオン軍が{br}立ちふさがった。{br}{br}ガンダムチームと{br}あらたな敵との{br}戦いが今、はじまった。{end}",
+  "en": "Neo Zeon forces stand in\nthe Gundam Team's way.\n\nThe battle between the\nGundam Team and this new\nfoe has now begun."
+ },
+ {
+  "id": "B16",
+  "kind": "mission",
+  "addr": "0E83A3",
+  "len": 58,
+  "slots": [
+   [
+    "p24",
+    "019B58"
+   ]
+  ],
+  "jp": "Ｇガンダムチームに{br}ネオジオン軍が{br}立ちふさがった。{br}{br}Ｇガンダムチームと{br}あらたな敵との{br}戦いが今、はじまった。{end}",
+  "en": "Neo Zeon forces stand in\nthe G Gundam Team's way.\n\nThe battle between the\nG Gundam Team and this new\nfoe has now begun."
+ },
+ {
+  "id": "B17",
+  "kind": "mission",
+  "addr": "0E83DD",
+  "len": 59,
+  "slots": [
+   [
+    "p24",
+    "019B85"
+   ]
+  ],
+  "jp": "ガンダムＷチームに{br}ネオジオン軍が{br}立ちふさがった。{br}{br}ガンダムＷチームと{br}あらたな敵との{br}戦いが今、はじまった。{br}{end}",
+  "en": "Neo Zeon forces stand in\nthe Gundam W Team's way.\n\nThe battle between the\nGundam W Team and this new\nfoe has now begun.\n"
+ },
+ {
+  "id": "B18",
+  "kind": "mission",
+  "addr": "0E8418",
+  "len": 59,
+  "slots": [
+   [
+    "p24",
+    "019B2E"
+   ]
+  ],
+  "jp": "いくつもの戦いのすえ{br}ついにたどりついた{br}ガンダムチーム。{br}{br}ＯＺの秘密兵器を{br}前にして、戦いが{br}今まさにはじまる。{end}",
+  "en": "After many battles, the\nGundam Team has finally\nmade it.\n\nFace to face with OZ's\nsecret weapon, the battle\nis about to begin."
+ },
+ {
+  "id": "B19",
+  "kind": "mission",
+  "addr": "0E8453",
+  "len": 61,
+  "slots": [
+   [
+    "p24",
+    "019B5B"
+   ]
+  ],
+  "jp": "いくつもの戦いのすえ{br}ついにたどりついた{br}Ｇガンダムチーム。{br}{br}ＯＺの秘密兵器を{br}前にして、戦いが{br}今、まさにはじまる。{end}",
+  "en": "After many battles, the\nG Gundam Team has finally\nmade it.\n\nFace to face with OZ's\nsecret weapon, the battle\nis about to begin."
+ },
+ {
+  "id": "B20",
+  "kind": "mission",
+  "addr": "0E8490",
+  "len": 61,
+  "slots": [
+   [
+    "p24",
+    "019B88"
+   ]
+  ],
+  "jp": "いくつもの戦いのすえ{br}ついにたどりついた{br}ガンダムＷチーム。{br}{br}ＯＺの秘密兵器を{br}前にして、戦いが{br}今、まさにはじまる。{end}",
+  "en": "After many battles, the\nGundam W Team has finally\nmade it.\n\nFace to face with OZ's\nsecret weapon, the battle\nis about to begin."
+ },
+ {
+  "id": "B21",
+  "kind": "mission",
+  "addr": "0E84CD",
+  "len": 55,
+  "slots": [
+   [
+    "p24",
+    "019B37"
+   ],
+   [
+    "p24",
+    "019B64"
+   ],
+   [
+    "p24",
+    "019B91"
+   ]
+  ],
+  "jp": "かずかずの戦いで{br}ガンダムと呼ばれた{br}モビルスーツ・{br}{br}このＯＺの秘密{br}兵器にきみは{br}勝たなければならない！{end}",
+  "en": "It is the mobile suit\nknown as Gundam through\ncountless battles.\n\nYou must defeat this,\nOZ's secret weapon!"
+ },
+ {
+  "id": "B22",
+  "kind": "mission",
+  "addr": "0E8504",
+  "len": 59,
+  "slots": [
+   [
+    "p24",
+    "019B31"
+   ],
+   [
+    "p24",
+    "019B5E"
+   ],
+   [
+    "p24",
+    "019B8B"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器は{br}あのモビルファイター{br}ガンダムであった。{br}{br}ガンダムファイトで{br}その手にほんとうの{br}勝利をつかめ！{end}",
+  "en": "OZ's secret weapon was\nthat Mobile Fighter,\na Gundam!\n\nIn a Gundam Fight, seize\ntrue victory with your\nown hands!"
+ },
+ {
+  "id": "B23",
+  "kind": "mission",
+  "addr": "0E853F",
+  "len": 55,
+  "slots": [
+   [
+    "p24",
+    "019B34"
+   ],
+   [
+    "p24",
+    "019B61"
+   ],
+   [
+    "p24",
+    "019B8E"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器、{br}それはしんがた{br}ガンダムだった。{br}{br}あのガンダムを{br}倒さないかぎり{br}ＯＺには勝てないのだ！{end}",
+  "en": "OZ's secret weapon was\na new-model Gundam.\n\nUnless you defeat that\nGundam, there is no way\nto beat OZ!"
+ },
+ {
+  "id": "B24",
+  "kind": "mission",
+  "addr": "0E8576",
+  "len": 57,
+  "slots": [
+   [
+    "p24",
+    "019B3A"
+   ]
+  ],
+  "jp": "ソロモンでの戦いに{br}やぶれてしまった{br}ガンダムチームに{br}{br}ネオジオン軍の{br}モビルスーツが{br}とつぜん、牙をむいた。{end}",
+  "en": "The Gundam Team has been\ndefeated in the battle\nat Solomon.\n\nSuddenly, Neo Zeon mobile\nsuits bare their fangs."
+ },
+ {
+  "id": "B25",
+  "kind": "mission",
+  "addr": "0E85AF",
+  "len": 58,
+  "slots": [
+   [
+    "p24",
+    "019B67"
+   ]
+  ],
+  "jp": "ソロモンでの戦いに{br}やぶれてしまった{br}Ｇガンダムチームに{br}{br}ネオジオン軍の{br}モビルスーツが{br}とつぜん、牙をむいた。{end}",
+  "en": "The G Gundam Team has been\ndefeated in the battle\nat Solomon.\n\nSuddenly, Neo Zeon mobile\nsuits bare their fangs."
+ },
+ {
+  "id": "B26",
+  "kind": "mission",
+  "addr": "0E85E9",
+  "len": 58,
+  "slots": [
+   [
+    "p24",
+    "019B94"
+   ]
+  ],
+  "jp": "ソロモンでの戦いに{br}やぶれてしまった{br}ガンダムＷチームに{br}{br}ネオジオン軍の{br}モビルスーツが{br}とつぜん、牙をむいた。{end}",
+  "en": "The Gundam W Team has been\ndefeated in the battle\nat Solomon.\n\nSuddenly, Neo Zeon mobile\nsuits bare their fangs."
+ },
+ {
+  "id": "B27",
+  "kind": "mission",
+  "addr": "0E8623",
+  "len": 51,
+  "slots": [
+   [
+    "p24",
+    "019B3D"
+   ]
+  ],
+  "jp": "ジオン軍にやぶれた{br}ガンダムチームに{br}ネオ・ジオン軍の{br}{br}強カなモビルスーツが{br}おそいかかって来た。{end}",
+  "en": "Beaten by Zeon, the\nGundam Team now faces\nNeo Zeon forces.\n\nTheir powerful mobile\nsuits are closing in."
+ },
+ {
+  "id": "B28",
+  "kind": "mission",
+  "addr": "0E8656",
+  "len": 52,
+  "slots": [
+   [
+    "p24",
+    "019B6A"
+   ]
+  ],
+  "jp": "ジオン軍にやぶれた{br}Ｇガンダムチームに{br}ネオ・ジオン軍の{br}{br}強カなモビルスーツが{br}おそいかかって来た。{end}",
+  "en": "Beaten by Zeon, the\nG Gundam Team now faces\nNeo Zeon forces.\n\nTheir powerful mobile\nsuits are closing in."
+ },
+ {
+  "id": "B29",
+  "kind": "mission",
+  "addr": "0E868A",
+  "len": 52,
+  "slots": [
+   [
+    "p24",
+    "019B97"
+   ]
+  ],
+  "jp": "ジオン軍にやぶれた{br}ガンダムＷチームに{br}ネオ・ジオン軍の{br}{br}強カなモビルスーツが{br}おそいかかって来た。{end}",
+  "en": "Beaten by Zeon, the\nGundam W Team now faces\nNeo Zeon forces.\n\nTheir powerful mobile\nsuits are closing in."
+ },
+ {
+  "id": "B30",
+  "kind": "mission",
+  "addr": "0E86BE",
+  "len": 57,
+  "slots": [
+   [
+    "p24",
+    "019B40"
+   ]
+  ],
+  "jp": "ティターンズ軍との{br}戦いで、きずをおった{br}ガンダムチームに{br}{br}ジオン軍が{br}ここぞとばかりに{br}攻撃をしかけてきた。{end}",
+  "en": "The Gundam Team was hurt\nin the battle with the\nTitans.\n\nSeizing the moment, the\nZeon forces launch an\nattack."
+ },
+ {
+  "id": "B31",
+  "kind": "mission",
+  "addr": "0E86F7",
+  "len": 58,
+  "slots": [
+   [
+    "p24",
+    "019B6D"
+   ]
+  ],
+  "jp": "ティターンズ軍との{br}戦いで、きずをおった{br}Ｇガンダムチームに{br}{br}ジオン軍が{br}ここぞとばかりに{br}攻撃をしかけてきた。{end}",
+  "en": "The G Gundam Team was hurt\nin the battle with the\nTitans.\n\nSeizing the moment, the\nZeon forces launch an\nattack."
+ },
+ {
+  "id": "B32",
+  "kind": "mission",
+  "addr": "0E8731",
+  "len": 58,
+  "slots": [
+   [
+    "p24",
+    "019B9A"
+   ]
+  ],
+  "jp": "ティターンズ軍との{br}戦いで、きずをおった{br}ガンダムＷチームに{br}{br}ジオン軍が{br}ここぞとばかりに{br}攻撃をしかけてきた。{end}",
+  "en": "The Gundam W Team was hurt\nin the battle with the\nTitans.\n\nSeizing the moment, the\nZeon forces launch an\nattack."
+ },
+ {
+  "id": "B33",
+  "kind": "mission",
+  "addr": "0E876B",
+  "len": 54,
+  "slots": [
+   [
+    "p24",
+    "019B43"
+   ]
+  ],
+  "jp": "ジオンとの戦いに{br}やぶれてしまった{br}ガンダムチームに{br}{br}ＣＶ・サンス[7B]ール軍の{br}モビルスーツが{br}牙をむく。{end}",
+  "en": "The Gundam Team has been\ndefeated in the battle\nwith Zeon.\n\nNow mobile suits of the\nCrossbone Vanguard and\nZanscare bare their fangs."
+ },
+ {
+  "id": "B34",
+  "kind": "mission",
+  "addr": "0E87A1",
+  "len": 55,
+  "slots": [
+   [
+    "p24",
+    "019B70"
+   ]
+  ],
+  "jp": "ジオンとの戦いに{br}やぶれてしまった{br}Ｇガンダムチームに{br}{br}ＣＶ・サンス[7B]ール軍の{br}モビルスーツが{br}牙をむく。{end}",
+  "en": "The G Gundam Team has been\ndefeated in the battle\nwith Zeon.\n\nNow mobile suits of the\nCrossbone Vanguard and\nZanscare bare their fangs."
+ },
+ {
+  "id": "B35",
+  "kind": "mission",
+  "addr": "0E87D8",
+  "len": 55,
+  "slots": [
+   [
+    "p24",
+    "019B9D"
+   ]
+  ],
+  "jp": "ジオンとの戦いに{br}やぶれてしまった{br}ガンダムＷチームに{br}{br}ＣＶ・サンス[7B]ール軍の{br}モビルスーツが{br}牙をむく。{end}",
+  "en": "The Gundam W Team has been\ndefeated in the battle\nwith Zeon.\n\nNow mobile suits of the\nCrossbone Vanguard and\nZanscare bare their fangs."
+ },
+ {
+  "id": "B36",
+  "kind": "mission",
+  "addr": "0E880F",
+  "len": 58,
+  "slots": [
+   [
+    "p24",
+    "019B46"
+   ]
+  ],
+  "jp": "コロニーでの戦いで{br}ふかでをおった{br}ガンダムチーム{br}{br}せまるネオ・ジオンに{br}ガンダムチームは{br}どうたちむかうのか？{end}",
+  "en": "In the colony battle, the\nGundam Team suffered\ngrave wounds.\n\nNeo Zeon closes in.\nHow will the Gundam Team\nstand against them?"
+ },
+ {
+  "id": "B37",
+  "kind": "mission",
+  "addr": "0E8849",
+  "len": 60,
+  "slots": [
+   [
+    "p24",
+    "019B73"
+   ]
+  ],
+  "jp": "コロニーでの戦いで{br}ふかでをおった{br}Ｇガンダムチーム{br}{br}せまるネオ・ジオンに{br}Ｇガンダムチームは{br}どうたちむかうのか？{end}",
+  "en": "In the colony battle, the\nG Gundam Team suffered\ngrave wounds.\n\nNeo Zeon closes in.\nHow will the G Gundam Team\nstand against them?"
+ },
+ {
+  "id": "B38",
+  "kind": "mission",
+  "addr": "0E8885",
+  "len": 60,
+  "slots": [
+   [
+    "p24",
+    "019BA0"
+   ]
+  ],
+  "jp": "コロニーでの戦いで{br}ふかでをおった{br}ガンダムＷチーム{br}{br}せまるネオ・ジオンに{br}ガンダムＷチームは{br}どうたちむかうのか？{end}",
+  "en": "In the colony battle, the\nGundam W Team suffered\ngrave wounds.\n\nNeo Zeon closes in.\nHow will the Gundam W Team\nstand against them?"
+ },
+ {
+  "id": "B39",
+  "kind": "ending",
+  "addr": "0E88C1",
+  "len": 82,
+  "slots": [
+   [
+    "p16",
+    "01D0CE"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器、{br}「Ｗガンダム」をついに{br}倒したかれらは{br}{br}つぎの戦いにそなえ、{br}きゅうそくをとった。{br}{br}・・しかし、あれが{br}本当の敵だったの、{br}だろうか・・・？{end}",
+  "en": "At last they defeated OZ's\nsecret weapon, the\n\"W Gundam.\"\n\nThey took a rest to\nprepare for the next\nbattle.\n\n...But was that really\nthe true enemy...?"
+ },
+ {
+  "id": "B40",
+  "kind": "ending",
+  "addr": "0E8913",
+  "len": 57,
+  "slots": [
+   [
+    "p16",
+    "01D0D0"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器の{br}モビルファイターを{br}ついに倒した！{br}{br}しかし、本当の{br}敵は、まだほかに{br}いるような、きがする。{end}",
+  "en": "We finally defeated OZ's\nsecret weapon, the\nMobile Fighter!\n\nBut I have a feeling the\ntrue enemy is still out\nthere somewhere."
+ },
+ {
+  "id": "B41",
+  "kind": "ending",
+  "addr": "0E894C",
+  "len": 91,
+  "slots": [
+   [
+    "p16",
+    "01D0D2"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器の{br}「Ｗガンダム」はぜんぶ{br}ブチのめした！{br}{br}これで、最強の{br}なまえはほしいままだ{br}だが、しかし・・{br}{br}まだ、強いヤツが{br}いるような、きがする。{br}いったい、どこに・・{end}",
+  "en": "We smashed every last one\nof OZ's secret weapon,\nthe \"W Gundams\"!\n\nNow the title of\nstrongest is all ours.\nAnd yet...\n\nI've got a feeling there's\nsomeone even stronger.\nWhere could they be..."
+ },
+ {
+  "id": "B42",
+  "kind": "ending",
+  "addr": "0E89A7",
+  "len": 92,
+  "slots": [
+   [
+    "p16",
+    "01D0D4"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器の{br}にせものＧガンダムは{br}ぜんぶブチのめした！{br}{br}これで、最強の{br}ちいを手にいれた！！{br}が、しかし・・{br}{br}まだ、強いヤツが{br}いるような、きがする。{br}いったい、どこに・・{end}",
+  "en": "We smashed every last one\nof OZ's secret weapons,\nthe fake G Gundams!\n\nNow we've claimed the\ntitle of strongest!!\nAnd yet...\n\nI've got a feeling there's\nsomeone even stronger.\nWhere could they be..."
+ },
+ {
+  "id": "B43",
+  "kind": "ending",
+  "addr": "0E8A03",
+  "len": 90,
+  "slots": [
+   [
+    "p16",
+    "01A90B"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器の{br}ガンダムを倒した{br}ガンダムチームは、{br}{br}れんぽう軍基地へと{br}つぎの指令のために{br}もどっていった・・{br}{br}かれらの戦いのひびが{br}終わるのは・・{br}まださきのことである{end}",
+  "en": "After defeating OZ's\nsecret weapon Gundam, the\nGundam Team...\n\nreturned to the Federation\nbase to await their next\norders...\n\nThe end of their days of\nbattle...\nis still a long way off."
+ },
+ {
+  "id": "B44",
+  "kind": "ending",
+  "addr": "0E8A5D",
+  "len": 85,
+  "slots": [
+   [
+    "p16",
+    "01A90D"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器の{br}ガンダムを倒した{br}Ｇガンダムチームは、{br}{br}宇宙最強の{br}モビルファイターズに{br}なった・・{br}{br}しかし、もっともっと{br}強い敵をもとめて{br}たび立っていった・・{end}",
+  "en": "After defeating OZ's\nsecret weapon Gundam, the\nG Gundam Team...\n\nbecame the strongest\nMobile Fighters in the\nuniverse...\n\nBut in search of even\nstronger foes, they set\noff on a new journey..."
+ },
+ {
+  "id": "B45",
+  "kind": "ending",
+  "addr": "0E8AB2",
+  "len": 89,
+  "slots": [
+   [
+    "p16",
+    "01A90F"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器の{br}ガンダムを倒した{br}ガンダムＷチームは、{br}{br}つかれたからだを{br}いやすため、みじかい{br}きゅうそくをとった{br}{br}かれらの本当の{br}戦いは、これからが{br}ほんばんなのだ・・{end}",
+  "en": "After defeating OZ's\nsecret weapon Gundam, the\nGundam W Team...\n\ntook a brief rest to\nheal their weary bodies.\n\nTheir true battle is only\njust beginning..."
+ },
+ {
+  "id": "B46",
+  "kind": "ending",
+  "addr": "0E8B0B",
+  "len": 60,
+  "slots": [
+   [
+    "p16",
+    "01A8F1"
+   ]
+  ],
+  "jp": "ＯＺの秘密兵器は{br}よそういじょうのもの{br}だった・・{br}{br}このままＯＺをとめる{br}ことはできないのか？{br}いったいどうすれば・{end}",
+  "en": "OZ's secret weapon was\nbeyond anything we\nexpected...\n\nIs there really no way\nto stop OZ?\nWhat on earth can we do..."
+ }
+]
