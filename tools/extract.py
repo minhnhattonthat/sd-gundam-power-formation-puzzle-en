@@ -69,5 +69,5 @@ if __name__ == "__main__":
             print("exists, skipped (use --force):", path)
             continue
         path.parent.mkdir(exist_ok=True)
-        path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
         print("wrote", path, len(entries))

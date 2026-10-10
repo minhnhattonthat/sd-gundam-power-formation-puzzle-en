@@ -1,4 +1,5 @@
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -56,3 +57,25 @@ def test_text_lint_clean():
 def test_english_build_fits():
     rom = build.build_english()
     assert len(rom) == build.ROM_SIZE
+
+
+SKILL = ROOT / ".claude" / "skills" / "translate-retro-game" / "scripts"
+BUILT = ROOT / "build" / "sdgundam_en.sfc"
+needs_built = pytest.mark.skipif(not (build.ORIG.exists() and BUILT.exists()), reason="no English build")
+
+
+@needs_built
+def test_romdiff_only_allowed_ranges():
+    ranges = [ln.split("#")[0].strip() for ln in (ROOT / "tools" / "allowed_ranges.txt").read_text().splitlines()]
+    r = subprocess.run([sys.executable, "-X", "utf8", str(SKILL / "romdiff.py"), str(build.ORIG), str(BUILT),
+                        *[x for x in ranges if x]], capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout + r.stderr
+
+
+@needs_built
+def test_no_reachable_japanese():
+    # old JP blocks are blanked, so any run left in the text areas the game reads is a miss
+    r = subprocess.run([sys.executable, "-X", "utf8", str(SKILL / "jp_left.py"), str(BUILT), "--tbl",
+                        str(ROOT / "tbl" / "jp.tbl"), "--range", "0E8000-0E8B46", "--range", "0FC4C0-0FC507",
+                        "--range", "0FF79F-0FF7EE"], capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout + r.stderr

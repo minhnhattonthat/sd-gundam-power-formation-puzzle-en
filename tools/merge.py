@@ -20,4 +20,4 @@ for path in sys.argv[1:]:
     print("merged %d from %s" % (len(tr), path))
 for n in FILES:
     (ROOT / "script" / (n + ".json")).write_text(json.dumps(data[n], ensure_ascii=False, indent=1) + "\n",
-                                                 encoding="utf-8")
+                                                 encoding="utf-8", newline="\n")

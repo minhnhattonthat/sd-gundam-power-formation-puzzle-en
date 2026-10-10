@@ -1,0 +1,32 @@
+# File-offset ranges the English build may change (romdiff.py). One range per line, comment after '#'.
+007FD7-007FD7   # header ROM size (2 MiB)
+007FDC-007FDF   # header checksum (release step only)
+01990B-01990B   # $83:990B briefing $2105 (BG3 8x8)
+0199D3-0199DE   # $83:99D3 briefing char write -> JSL brief_putc
+019A09-019A0A   # $83:9A09 briefing line stride
+019A14-019A18   # $83:9A14 briefing FF handler -> JSL brief_end_hold
+019A67-019A68   # $83:9A67 briefing speed-up mask
+019AFE-019AFF   # $83:9AFE briefing frames per char
+019B1C-019BA2   # $83:9B1C briefing pointer tables (3 x 15 x 24-bit)
+01A8F1-01A8F2   # $83:A8F0 LDX #ending (bad end)
+01A8F4-01A8F5   # $83:A8F3 PEA ending bank
+01A8F9-01A8FA   # $83:A8F8 LDY ending VRAM start
+01A90B-01A910   # $83:A90B ending pointers (3 teams)
+01D0B3-01D0B4   # $83:D0B2 PEA ending bank
+01D0B8-01D0B9   # $83:D0B7 LDY ending VRAM start
+01D0CE-01D0D5   # $83:D0CE ending pointers (2x2)
+01D909-01D909   # $83:D909 ending/prologue writer: 1 column per char
+01D916-01D919   # $83:D916
+01D92B-01D92E   # $83:D92B
+01DA80-01DA81   # $83:DA7F PEA prologue bank
+01DA85-01DA86   # $83:DA84 LDX #prologue
+01DA88-01DA89   # $83:DA87 LDY prologue VRAM start
+01F0DA-01F0DD   # $83:F0DA options text param block (bank, pointer)
+065172-065177   # $8C:D171 copyright chr source (LDA #lo, LDA #bank)
+0651BA-0651BF   # $8C:D1B9 copyright tilemap source
+0E8000-0E8B46   # old JP briefing/ending block (blanked to FF)
+0EACB4-0ECB07   # font LZ block $9D:ACB4 (rewritten in place, padded with FF)
+0FC4C0-0FC507   # old JP prologue (blanked)
+0FF79F-0FF7EE   # old JP options strings (blanked)
+100000-107FFF   # expansion bank $A0: English text, options, copyright gfx
+108000-10FFFF   # expansion bank $A1: engine code (asm/main.asm)
