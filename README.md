@@ -30,3 +30,9 @@ Layout: `script/` text (JP + EN), `translations/` merge inputs, `tbl/` tables, `
 ## Credits and notes
 Produced with AI assistance (Claude) under the direction of the patch author. The glyph sources in `font/` were seeded from Windows bitmap fonts.
 Game (C) Sotsu Agency, Sunrise, TV Asahi, Bandai. Unofficial; not affiliated with or endorsed by the rights holders.
+
+## Support
+
+If you enjoy this translation, you can support my work on Ko-fi:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/minhnhattonthat)
