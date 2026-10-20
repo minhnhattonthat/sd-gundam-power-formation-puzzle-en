@@ -10,6 +10,9 @@ Unofficial fan translation of *SD Gundam - Power Formation Puzzle* (Super Famico
 3. Apply the `.bps` with Flips, beat or Rom Patcher JS. The result is a 2 MiB ROM.
 4. Tested in Mesen2 on a cold boot (don't use old savestates).
 
+**Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
+helps most.
+
 ## What is translated
 Intro text, all story-mode mission briefings (three teams), all 8 endings, the Options menu and the copyright screen.
 The rest of the game was already English. New 8x16 font (26 characters per line); finished briefings stay up a few seconds longer.

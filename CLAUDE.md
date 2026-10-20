@@ -20,6 +20,7 @@ Independent of the sibling repo ../sd-gundam-power-formation-puzzle: never read 
 ## Rulings
 - Official Gundam terms, no honorifics, English credits, full words; routine decisions pre-approved. gpt-6-astra OK for reviews.
 - English layout: 8x16 font, 26 chars/line (briefings/endings/prologue); options words pre-rendered per JP cell budget.
+- Player bug reports: GitHub issues (`gh issue list --label bug`). Copy the attached save into `work/states/`, reproduce in the emulator, fix, commit with `Fixes #N`, and update the Status section.
 
 ## Gotchas
 - Font block (LZ $9D:ACB4) ends with the BG3 palette (32 bytes past 0x3000): keep it.
